@@ -2,8 +2,9 @@ import { Pokemon } from "@/types/Pokemon";
 import { Badge, Group, Image, Paper, Stack, Text, Title } from "@mantine/core";
 import { FC } from "react";
 
-type Props = {};
+type Props = Pokemon;
 
+// fc = function component
 export const PokemonCard: FC<Props> = ({
   name,
   height,
